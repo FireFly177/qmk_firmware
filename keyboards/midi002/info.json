@@ -12,7 +12,7 @@
         "mousekey": true,
         "nkro": true
     },
-    "matrix": {"rows": 6, "cols": 14},
+    // "matrix": {"rows": 6, "cols": 14},
     "matrix_pins": {
         "cols": ["GP0", "GP1", "GP2", "GP3", "GP4", "GP5", "GP6", "GP7", "GP8", "GP9", "GP10", "GP11", "GP12", "GP13"],
         "rows": ["GP14", "GP15", "GP16", "GP17", "GP18", "GP19"]
@@ -25,7 +25,7 @@
         "vid": "0xFEED"
     },
     "layouts": {
-        "LAYOUT_midi": {
+        "LAYOUT": {
             "layout": [
                 {"label":"0,0", "matrix": [0, 0], "x":0.25, "y":0}, 
                 {"label":"0,1", "matrix": [0, 1], "x":2.25, "y":0}, 
